@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## my movie page,learn how to code js!
 
 You can use the [editor on GitHub](https://github.com/siebel189/movie/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
