@@ -1,1 +1,71 @@
-开始测试github创建自己网页
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ID/类选择器</title>
+    <style type="text/css">
+        h1{
+            text-align: center;
+            color: red;
+            font-family: Saab;
+        }
+        p{
+            text-align: center;
+            color: green;
+            font-style: italic;
+            font-style: italic;
+            font-style: normal;
+            font-weight: bold;
+            font-weight: bolder;
+            font-weight: lighter;
+
+            font-size: 30px;
+
+            /*font:normal bold 10px "楷体";*/
+        }
+        #first_line
+        {
+            color: rgba(29, 30, 255,0.5)
+        }
+        .second_line
+        {
+            color: rgba(255, 100, 78,0.5);
+        }
+    </style>
+</head>
+<body>
+<!--
+什么是ID选择器；
+根据ID名称找到对应的标签，然后设置属性。
+1,每个标签都可以设置一个ID
+2，在同一个界面内ID不能重复；
+3，ID选择器要加上#
+4,ID的编码有一定的规范：
+4.1 只能字符，数字和“_”组成，不能以数字开头。
+4.3 ID名称不能是标签的名称；
+4.4 在企业开发中，一般情况下，如果只是设置样式一般不用ID ；
+
+什么是类选择器：根据指定的类名称找到指定的标签；
+每个标签可以绑定多个类名，class ="classname1 classname2……"
+
+ID选择器和类选择器区别：
+ID是不能重复；class可以重复；
+一个HTML标签只能绑定一个ID，可以绑定多个class名称；
+ID选择是以#开头；类选择器是以.开头；
+ID一般给JS使用，类给CSS选用。
+
+-->
+
+<h1>《封丘作》</h1>
+<p ID="first_line">我本渔樵孟诸野，</p>
+<p class="second_line">一生自是悠悠者；</p>
+<p><a href="./report.html" >咋可狂歌宁泽中</a>，</p>
+<p>宁堪作吏风尘下；</p>
+<p>只言小邑无所谓，</p>
+<p>公门百事皆有期；</p>
+<p>拜迎官长心欲碎，</p>
+
+<p>鞭挞黎庶令人悲；</p>
+
+</body>
+</html>
